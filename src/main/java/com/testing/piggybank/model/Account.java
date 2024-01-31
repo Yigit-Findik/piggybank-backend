@@ -47,4 +47,12 @@ public class Account {
     public long getUserId() {
         return userId;
     }
+
+    public void setUserId(long userId) {
+        this.userId = userId;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
